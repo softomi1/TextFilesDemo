@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class CustomeLinked<E> extends ArrayList<E>{
 
 	
-	public boolean add(E e) {
+	public boolean add(E e) {   
 		if (this.contains(e)) {
 			return false;
 		}
